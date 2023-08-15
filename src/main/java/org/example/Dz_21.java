@@ -12,8 +12,10 @@ public class Dz_21 {
         try {
             System.out.print("Введите первое целое число: ");
             int a = sc.nextInt();
+            sc.nextLine();
             System.out.print("Введите второе целое число: ");
             int b = sc.nextInt();
+            sc.nextLine();
             int result = divide(a, b);
             System.out.println("Результат деления: "+ result);
         } catch (DivisionByZeroException e) {

@@ -6,6 +6,7 @@ public class Dz_2 {
         try {
             System.out.print("Введите целое число: ");
             int number = sc.nextInt();
+            sc.nextLine();
             checkNumber(number);
         } catch (InvalidNumberException e) {
             System.out.println(e.getMessage());

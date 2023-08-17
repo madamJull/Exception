@@ -9,9 +9,7 @@ public class InvalidPasswordException extends Exception{
         passwordConditionViolated = conditionViolated;
     }
 
-    public String printMessage()
-    {
-        // Вызов конструктора родительского исключения в соответствии с нарушенным условием
+    public String printMessage(){
         switch (passwordConditionViolated) {
 
             case 1:
